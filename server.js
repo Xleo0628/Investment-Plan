@@ -9,7 +9,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 const JWT_SECRET = 'dividend-strategy-2024-free-version-123'; // 无需修改，个人使用足够安全
-const MONGODB_URI = '替换为你第一步复制的MongoDB连接地址'; // 重点：替换这里！
+const MONGODB_URI = 'mongodb+srv://Xleo:xleo20130628@investment-plan.ttcuwv5.mongodb.net/?appName=Investment-Plan'; // 重点：替换这里！
 const PORT = process.env.PORT || 3001;
 
 // 连接MongoDB
